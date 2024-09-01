@@ -330,7 +330,7 @@ myStack.pop();//报错：java.lang.IllegalArgumentException: Stack is empty.
 - 栈：双端队列天生便可以实现栈的全部功能（`push`、`pop` 和 `peek`），并且在 Deque 接口中已经实现了相关方法。Stack 类已经和 Vector 一样被遗弃，现在在 Java 中普遍使用双端队列（Deque）来实现栈。
 - 广度优先搜索（BFS），在图的广度优先搜索过程中，队列被用于存储待访问的节点，保证按照层次顺序遍历图的节点。
 - Linux 内核进程队列（按优先级排队）
-- 现实生活中的派对，播放器上的播放列表;
+- 现实生活中的排队，播放器上的播放列表;
 - 消息队列
 - 等等……
 
